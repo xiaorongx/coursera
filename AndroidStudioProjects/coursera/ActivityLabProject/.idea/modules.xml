@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ActivityLab/ActivityLab.iml" filepath="$PROJECT_DIR$/ActivityLab/ActivityLab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ActivityLabProject.iml" filepath="$PROJECT_DIR$/ActivityLabProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ActivityLabTest/ActivityLabTest.iml" filepath="$PROJECT_DIR$/ActivityLabTest/ActivityLabTest.iml" />
+    </modules>
+  </component>
+</project>
+

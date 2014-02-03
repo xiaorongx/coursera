@@ -1,0 +1,57 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activity Two"
+        android:id="@+id/bLaunchActivityTwo"
+        android:layout_below="@+id/textView"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_marginTop="69dp"
+        android:layout_gravity="left|bottom" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mTvCreate"
+        android:id="@+id/mTvCreate"
+        android:layout_below="@+id/bLaunchActivityTwo"
+        android:layout_alignLeft="@+id/bLaunchActivityTwo"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="left|center_vertical" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mTvRestart"
+        android:id="@+id/mTvRestart"
+        android:layout_below="@+id/mTvResume"
+        android:layout_alignLeft="@+id/mTvCreate"
+        android:layout_marginTop="24dp"
+        android:layout_gravity="center_horizontal|top" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mTvStart"
+        android:id="@+id/mTvStart"
+        android:layout_alignTop="@+id/mTvRestart"
+        android:layout_toRightOf="@+id/bLaunchActivityTwo"
+        android:layout_marginLeft="87dp"
+        android:layout_gravity="right|top" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mTvResume"
+        android:id="@+id/mTvResume"
+        android:layout_below="@+id/mTvCreate"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="center" />
+</FrameLayout>
